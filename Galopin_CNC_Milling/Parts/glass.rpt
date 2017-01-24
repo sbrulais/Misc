@@ -1,0 +1,66 @@
+*****************************************************************
+      SolidWorks Corporation - Compte-rendu d'état du Processeur IGES
+*****************************************************************
+=================================================================
+Informations générales
+=================================================================
+Envoi de l'identification du produit système en cours  : GLASS
+Réception de l'identification du produit système en cours: GLASS
+Nom de fichier                    : glass.igs
+Envoi du système en cours               : Creo Parametric by PTC Inc.
+Version du préprocesseur         : 2015200
+Date de création du fichier           : 20161229.131039
+Date de création du modèle          : 20161229.131039
+Unités                        : MM
+Echelle de l'espace modèle            : 1
+Auteur                       : Auyon
+Organisation                 : Unknown
+
+
+=================================================================
+Informations sur le traitement des entités
+=================================================================
+
+
+=================================================================
+Analyse de précision d'un fichier IGES:
+=================================================================
+  Nombre le plus répandu de chiffres significatifs:              13
+  Nombre le plus grand de chiffres significatifs:                     13
+  Nombre moyen de chiffres significatifs :                12.5567
+  Distance maximale jusqu'à l'origine:                          100.791
+  Distance minimale jusqu'à l'origine:                                0
+  Nombre effectif de chiffres significatifs:                   13
+
+
+=================================================================
+Récapitulatif des entités
+=================================================================
+-----------------------------------------------------------------
+Nom de type                                         Nombre converti
+---- ----                                         ----- ---------
+100  Arc                                             67        67
+102  Composite curve                                 60        60
+110  Line                                            84        84
+120  Surface of revolution                            6         6
+124  Transformation matrix                           67        67
+126  Rational B-spline curve                        116       116
+128  Rational B-spline surface                       22        22
+142  Curve on a parametric surface                   30        30
+144  Trimmed parametric surface                      28        28
+314  Color definition                                 9         9
+_________________________________________________________________
+
+
+=================================================================
+Récapitulatif des résultats
+=================================================================
+Type de fonction SolidWorks                Nombre
+-----------------------                -----
+Fonction(s) volumique(s)                       1
+Fonction(s) surfacique(s)                     0
+Fonction(s) de courbe/d'esquisse                0
+--------------------------------------------
+Heure de début: dimanche, janvier 01, 2017 22:43:05
+Heure de fin: dimanche, janvier 01, 2017 22:43:06
+Durée de traitement: 0 days, 00 hours, 00 mins, 01 secs
