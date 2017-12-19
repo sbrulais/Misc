@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -90,7 +90,7 @@
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
 <layer number="114" name="Section" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="3" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="5" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -155,18 +155,17 @@
 <hole x="35" y="58" drill="4.5"/>
 <hole x="5" y="58" drill="4.5"/>
 <hole x="95" y="58" drill="4.5"/>
-<text x="38.5" y="9" size="2.1844" layer="21" font="vector" ratio="13">30V</text>
-<text x="28" y="9" size="2.1844" layer="21" font="vector" ratio="13">34V</text>
-<text x="35.5" y="9" size="2.1844" layer="21" font="vector" ratio="13">-</text>
-<text x="25.5" y="9" size="2.1844" layer="21" font="vector" ratio="13">-</text>
+<text x="38.5" y="9" size="2.1844" layer="121" font="vector" ratio="13">30V</text>
+<text x="28" y="9" size="2.1844" layer="121" font="vector" ratio="13">34V</text>
+<text x="35.5" y="9" size="2.1844" layer="121" font="vector" ratio="13">-</text>
+<text x="25.5" y="9" size="2.1844" layer="121" font="vector" ratio="13">-</text>
 <text x="18" y="9" size="2.1844" layer="21" font="vector" ratio="13">-</text>
-<text x="18" y="9" size="2.1844" layer="21" font="vector" ratio="13">-</text>
-<text x="12" y="9" size="2.1844" layer="21" font="vector" ratio="13">-</text>
-<text x="53" y="20" size="2.1844" layer="21" font="vector" ratio="13">Charly Robot
+<text x="18" y="9" size="2.1844" layer="121" font="vector" ratio="13">-</text>
+<text x="12" y="9" size="2.1844" layer="121" font="vector" ratio="13">-</text>
+<text x="52" y="25" size="2.1844" layer="121" font="vector" ratio="13">Charly Robot
 Junction Board
 S.Brulais
-10/2017
-</text>
+10/2017</text>
 <wire x1="100" y1="70" x2="100" y2="3" width="0" layer="20"/>
 <wire x1="31" y1="4" x2="31" y2="22" width="2.54" layer="30"/>
 <wire x1="31" y1="22" x2="26" y2="27" width="2.54" layer="30"/>
