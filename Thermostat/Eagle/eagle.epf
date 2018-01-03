@@ -1,0 +1,39 @@
+[Eagle]
+Version="06 04 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/0SBLib.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Aesthetics.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-AnalogIC.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Boards.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Capacitors.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Connectors.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-DigitalIC.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Displays.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Electromechanical.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-FreqCtrl.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-LED.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Passives.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-PowerIC.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-RF.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Resistors.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Retired.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/SparkFun-Sensors.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/TI_MSP430_v16.lbr"
+UsedLibrary="C:/Users/syoctax/Work/sebastien-brulais-work/Eagle/adafruit.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="681 139 1583 566"
+State=2
+Number=0
+
+[Desktop]
+Screen="3840 1154"
+Window="Win_1"
