@@ -22,35 +22,21 @@ const char* host = WIFI_HOST;
 
 void setup() {
   
+  
+  digitalWrite(SLEEP_PIN, HIGH);
   pinMode(SLEEP_PIN, OUTPUT);
   digitalWrite(SLEEP_PIN, HIGH);
   pinMode(RELAY_L1_PIN, OUTPUT);
   digitalWrite(RELAY_L1_PIN, LOW);
   pinMode(RELAY_L2_PIN, OUTPUT);
   digitalWrite(RELAY_L2_PIN, LOW);
-  delay(2000);
-
   Serial.begin(115200);
   delay(100);
 
   dht.begin();
   Serial.println("DHT setup...");
 
-  // Connecting to a WiFi network
-  Serial.print("Connecting to ");
-  Serial.println(ssid);
-  
-  WiFi.begin(ssid, password);
-  
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(".");
-  }
 
-  Serial.println("");
-  Serial.println("WiFi connected");  
-  Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
 }
 
 void loop() {
@@ -82,12 +68,17 @@ void loop() {
   Serial.print(t);
   Serial.println(" *C ");
 
+
+  wifi_connect();
+
   // Use WiFiClient class to create TCP connections
   WiFiClient client;
   const int httpPort = 80;
   if (!client.connect(host, httpPort)) {
     Serial.println("connection failed");
-    return;
+    /*Goto sleep*/
+    digitalWrite(SLEEP_PIN, LOW);
+    delay(20000);
   }
   
   // This will send the request to the server
@@ -157,5 +148,52 @@ void Relay(int OnOff)
   digitalWrite(RELAY_L1_PIN, LOW);
   digitalWrite(RELAY_L2_PIN, LOW);
 
+}
+
+void software_Reboot()
+{
+  wdt_enable(WDTO_15MS);
+
+  while(1)
+  {
+
+  }
+}
+
+void wifi_connect()
+{
+  int retry =0;
+    // Connecting to a WiFi network
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+
+  IPAddress ip(192, 168, 0, 70); 
+  IPAddress gateway(192, 168, 0, 254); 
+  Serial.print(F("Setting static ip to : "));
+  Serial.println(ip);
+  IPAddress subnet(255, 255, 255, 0); 
+  WiFi.config(ip, gateway, subnet);
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
+
+  Serial.print("MAC: ");
+  Serial.println(WiFi.macAddress());
+  
+  while ( (WiFi.status() != WL_CONNECTED) && (retry < 40) ) {
+    delay(500);
+    Serial.print(".");
+    retry++;
+  }
+  if (retry>=40)
+  {
+    /*Goto sleep*/
+    digitalWrite(SLEEP_PIN, LOW);
+    delay(20000);
+    //software_Reboot();
+  }
+  Serial.println("");
+  Serial.println("WiFi connected");  
+  Serial.println("IP address: ");
+  Serial.println(WiFi.localIP());
 }
 
