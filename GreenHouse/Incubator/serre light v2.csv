@@ -1,0 +1,13 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"FAB";"FAB-REF";"FARNELL";"MOUSER";"MPN";
+"1";"";"LED-LUXEON-UV-U2";"LED-LUXEON-UV-U2";"UV";"0603 Rouge : Farnell 1685073";"";"";"";"";"";
+"2";"";"LED-THERMAL-CREE-GP-G3";"LED-CREE-GP-G3";"BL1, BL2";"";"";"";"";"";"XPGDRY-L1-0000-00601";
+"2";"";"LED-THERMAL-LUMINU-SST-10-DR";"LED-LUMINU-SST-10-DR";"RD1, RD2";"";"";"";"";"";"";
+"1";"";"LED-THERMAL-OSRAM-GW";"LED-OSRAM-GW";"WH";"";"";"";"";"";"GW CS8PM1.PM-LSLU-XX52-1";
+"4";"0.1";"R-EU_R1206";"R1206";"R1, R4, R9, R10";"RESISTOR, European symbol";"";"";"1099913";"";"";
+"4";"10µ";"L-MSS1038";"L-COILCRAFT-MSS1038";"L1, L2, L3, L5";"";"";"";"2288225";"";"";
+"4";"22k";"R0805";"R0805";"R3, R6, R8, R12";"";"";"";"";"";"";
+"4";"4.7µ";"C-EUC1210";"C1210";"C1, C2, C3, C39";"CAPACITOR, European symbol";"";"";"";"";"";
+"4";"470k";"R0805";"R0805";"R2, R5, R7, R11";"";"";"";"";"";"";
+"2";"CON-MICROFIT-1X2";"CON-MICROFIT-1X2";"MICROFIT-1X2";"J3, J4";"";"MOLEX";"43650-0228";"";"538-43650-0228";"";
+"4";"SS16";"DIODE_SCHOTTKY_SS16";"SS16_DIODE";"D1, D2, D3, D4";"";"";"";"";"";"";
+"4";"ZXLD1360";"ZXLD1360";"SOT23-5L";"U$3, U$7, U$12, U$22";"";"";"";"";"";"";
