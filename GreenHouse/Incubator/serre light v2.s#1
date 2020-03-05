@@ -155,16 +155,6 @@
 <libraries>
 <library name="Bonelli">
 <packages>
-<package name="SMD0402_FR4_0.5MM">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.97" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.97" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-</package>
 <package name="LED-0603">
 <description>Farnell 1685073 (rouge)</description>
 <smd name="A" x="0" y="0.825" dx="0.8" dy="0.8" layer="1"/>
@@ -334,383 +324,6 @@
 </polygon>
 <text x="-1.9" y="-1.4" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 </package>
-<package name="0603">
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-</package>
-<package name="0805">
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-</package>
-<package name="L-BOURNS-SRR1240">
-<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
-<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="21"/>
-<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="21"/>
-<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="21"/>
-<smd name="1" x="-4.85" y="0" dx="2.9" dy="5.4" layer="1"/>
-<smd name="2" x="4.85" y="0" dx="2.9" dy="5.4" layer="1"/>
-<text x="-2.5" y="6.5" size="1" layer="25">&gt;NAME</text>
-<text x="-2.5" y="-7.5" size="1" layer="27">&gt;VALUE</text>
-</package>
-<package name="1206">
-<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
-<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
-<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
-<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
-</package>
-<package name="L0402">
-<description>For reflow soldering</description>
-<wire x1="-0.082" y1="-0.356" x2="0.082" y2="-0.356" width="0.1" layer="51"/>
-<wire x1="0.082" y1="0.356" x2="-0.082" y2="0.356" width="0.1" layer="51"/>
-<smd name="1" x="-0.4" y="0" dx="0.5" dy="0.7" layer="1"/>
-<smd name="2" x="0.4" y="0" dx="0.5" dy="0.7" layer="1"/>
-<text x="-0.7" y="0.5" size="0.5" layer="25">&gt;NAME</text>
-<text x="-0.7" y="-1" size="0.5" layer="27">&gt;VALUE</text>
-</package>
-<package name="L0603">
-<wire x1="-0.2" y1="-0.55" x2="0.2" y2="-0.55" width="0.1" layer="51"/>
-<wire x1="0.2" y1="0.55" x2="-0.2" y2="0.55" width="0.1" layer="51"/>
-<smd name="1" x="-0.65" y="0" dx="0.6" dy="1" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.6" dy="1" layer="1"/>
-<text x="-0.9" y="0.65" size="0.5" layer="25">&gt;NAME</text>
-<text x="-0.9" y="-1.2" size="0.5" layer="27">&gt;VALUE</text>
-</package>
-<package name="L-F1644588">
-<wire x1="-4.15" y1="3.65" x2="4.15" y2="3.65" width="0.127" layer="21"/>
-<wire x1="4.15" y1="3.65" x2="4.15" y2="-3.65" width="0.127" layer="21"/>
-<wire x1="4.15" y1="-3.65" x2="-4.15" y2="-3.65" width="0.127" layer="21"/>
-<wire x1="-4.15" y1="-3.65" x2="-4.15" y2="3.65" width="0.127" layer="21"/>
-<smd name="1" x="2.65" y="0" dx="3.2" dy="4.1" layer="1"/>
-<smd name="2" x="-2.65" y="0" dx="3.2" dy="4.1" layer="1"/>
-</package>
-<package name="L-F1636090">
-<wire x1="-6.35" y1="5" x2="6.35" y2="5" width="0.127" layer="21"/>
-<wire x1="6.35" y1="5" x2="6.35" y2="-5" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="5" x2="-6.35" y2="-5" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="-5" x2="6.35" y2="-5" width="0.127" layer="21"/>
-<smd name="1" x="5.15" y="0" dx="3" dy="2.8" layer="1"/>
-<smd name="2" x="-5.15" y="0" dx="3" dy="2.8" layer="1"/>
-</package>
-<package name="RT-LQW15">
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.05" layer="21"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.05" layer="21"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.05" layer="21"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.05" layer="21"/>
-<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.65" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.5" dy="0.65" layer="1"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="21"/>
-<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="21"/>
-<text x="-0.7" y="0.5" size="0.3" layer="25">&gt;NAME</text>
-</package>
-<package name="RT-LQW18">
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="21"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="21"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="21"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="21"/>
-<smd name="1" x="-0.72" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="2" x="0.72" y="0" dx="0.7" dy="1" layer="1"/>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.5" y2="0.4" layer="21"/>
-<rectangle x1="0.5" y1="-0.4" x2="0.8" y2="0.4" layer="21"/>
-<text x="-0.7" y="0.7" size="0.3" layer="25">&gt;NAME</text>
-</package>
-<package name="RT-BLM15">
-<wire x1="-0.5" y1="0.25" x2="-0.15" y2="0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="-0.15" y1="0.25" x2="0.15" y2="0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="0.15" y1="0.25" x2="0.5" y2="0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="0.5" y1="-0.25" x2="0.15" y2="-0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="0.15" y1="-0.25" x2="-0.15" y2="-0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="-0.15" y1="-0.25" x2="-0.5" y2="-0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="-0.15" y1="0.25" x2="-0.15" y2="0.15" width="0.05" layer="21" style="shortdash"/>
-<wire x1="-0.15" y1="-0.15" x2="-0.15" y2="-0.25" width="0.05" layer="21" style="shortdash"/>
-<wire x1="-0.15" y1="0.05" x2="-0.15" y2="-0.05" width="0.05" layer="21" style="shortdash"/>
-<wire x1="0.15" y1="0.25" x2="0.15" y2="0.15" width="0.05" layer="21" style="shortdash"/>
-<wire x1="0.15" y1="0.05" x2="0.15" y2="-0.05" width="0.05" layer="21" style="shortdash"/>
-<wire x1="0.15" y1="-0.15" x2="0.15" y2="-0.25" width="0.05" layer="21" style="shortdash"/>
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.35" y2="0.25" layer="21"/>
-<rectangle x1="0.35" y1="-0.25" x2="0.5" y2="0.25" layer="21"/>
-<text x="-0.7" y="0.5" size="0.3" layer="25">&gt;NAME</text>
-</package>
-<package name="RT-BLM18">
-<wire x1="-0.8" y1="0.4" x2="-0.2" y2="0.4" width="0.05" layer="21"/>
-<wire x1="-0.2" y1="0.4" x2="0.2" y2="0.4" width="0.05" layer="21"/>
-<wire x1="0.2" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="21"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="21"/>
-<wire x1="0.8" y1="-0.4" x2="0.2" y2="-0.4" width="0.05" layer="21"/>
-<wire x1="0.2" y1="-0.4" x2="-0.2" y2="-0.4" width="0.05" layer="21"/>
-<wire x1="-0.2" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="21"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="21"/>
-<wire x1="-0.2" y1="0.4" x2="-0.2" y2="0.2" width="0.05" layer="21"/>
-<wire x1="-0.2" y1="-0.4" x2="-0.2" y2="-0.2" width="0.05" layer="21"/>
-<wire x1="-0.2" y1="-0.1" x2="-0.2" y2="0.1" width="0.05" layer="21"/>
-<wire x1="0.2" y1="0.4" x2="0.2" y2="0.2" width="0.05" layer="21"/>
-<wire x1="0.2" y1="-0.1" x2="0.2" y2="0.1" width="0.05" layer="21"/>
-<wire x1="0.2" y1="-0.4" x2="0.2" y2="-0.2" width="0.05" layer="21"/>
-<smd name="1" x="-0.675" y="0" dx="0.65" dy="0.7" layer="1"/>
-<smd name="2" x="0.675" y="0" dx="0.65" dy="0.7" layer="1" rot="R180"/>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.6" y2="0.4" layer="21"/>
-<rectangle x1="0.6" y1="-0.4" x2="0.8" y2="0.4" layer="21"/>
-<text x="-0.6" y="0.5" size="0.3" layer="25">&gt;NAME</text>
-</package>
-<package name="RT-BLM21">
-<wire x1="-1" y1="0.625" x2="-0.3" y2="0.625" width="0.05" layer="21"/>
-<wire x1="-0.3" y1="0.625" x2="0.3" y2="0.625" width="0.05" layer="21"/>
-<wire x1="0.3" y1="0.625" x2="1" y2="0.625" width="0.05" layer="21"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.05" layer="21"/>
-<wire x1="1" y1="-0.625" x2="0.3" y2="-0.625" width="0.05" layer="21"/>
-<wire x1="0.3" y1="-0.625" x2="-0.3" y2="-0.625" width="0.05" layer="21"/>
-<wire x1="-0.3" y1="-0.625" x2="-1" y2="-0.625" width="0.05" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.05" layer="21"/>
-<wire x1="-0.3" y1="0.625" x2="-0.3" y2="0.4" width="0.05" layer="21"/>
-<wire x1="-0.3" y1="-0.4" x2="-0.3" y2="-0.625" width="0.05" layer="21"/>
-<wire x1="-0.3" y1="0.125" x2="-0.3" y2="-0.125" width="0.05" layer="21"/>
-<wire x1="0.3" y1="0.625" x2="0.3" y2="0.4" width="0.05" layer="21"/>
-<wire x1="0.3" y1="-0.4" x2="0.3" y2="-0.625" width="0.05" layer="21"/>
-<wire x1="0.3" y1="0.125" x2="0.3" y2="-0.125" width="0.05" layer="21"/>
-<smd name="1" x="-1.1" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="1.1" y="0" dx="1" dy="1.1" layer="1"/>
-<rectangle x1="-1" y1="-0.625" x2="-0.7" y2="0.625" layer="21"/>
-<rectangle x1="0.7" y1="-0.625" x2="1" y2="0.625" layer="21"/>
-<text x="-1.7" y="0.9" size="0.8" layer="25" font="vector" ratio="10">&gt;NAME</text>
-</package>
-<package name="L-COILCRAFT-DO5040H">
-<smd name="1" x="-7.95" y="0" dx="1.9" dy="6.35" layer="1"/>
-<smd name="2" x="7.95" y="0" dx="1.9" dy="6.35" layer="1"/>
-<circle x="0" y="0" radius="7.62" width="0.2" layer="21"/>
-<text x="6.2" y="7" size="1.27" layer="25">&gt;NAME</text>
-<text x="6.7" y="4.7" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="L1206">
-<smd name="1" x="-1.205" y="0" dx="0.89" dy="2.54" layer="1"/>
-<smd name="2" x="1.205" y="0" dx="0.89" dy="2.54" layer="1"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
-<text x="-1.905" y="1.5875" size="0.8" layer="25">&gt;NAME</text>
-</package>
-<package name="BLM41P-1806">
-<smd name="1" x="-2.25" y="0" dx="1.5" dy="1.2" layer="1"/>
-<smd name="2" x="2.25" y="0" dx="1.5" dy="1.2" layer="1"/>
-<wire x1="-2.25" y1="-1.3" x2="2.25" y2="-1.3" width="0.2" layer="21"/>
-<wire x1="2.25" y1="-1.3" x2="2.25" y2="1.3" width="0.2" layer="21"/>
-<wire x1="2.25" y1="1.3" x2="-2.25" y2="1.3" width="0.2" layer="21"/>
-<wire x1="-2.25" y1="1.3" x2="-2.25" y2="-1.3" width="0.2" layer="21"/>
-<text x="-2.8" y="1.6" size="1.27" layer="25">&gt;NAME</text>
-</package>
-<package name="L-SLF7045T-220MR90-PF">
-<smd name="1" x="0" y="-3.2" dx="2.2" dy="1.5" layer="1"/>
-<smd name="2" x="0" y="3.2" dx="2.2" dy="1.5" layer="1"/>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
-<text x="-4" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-<package name="L-100µH-7.4A">
-<pad name="1" x="-14.65" y="0" drill="2.8" diameter="6"/>
-<pad name="2" x="14.65" y="0" drill="2.8" diameter="6"/>
-<circle x="0" y="0" radius="14.65" width="0.127" layer="21"/>
-<text x="10" y="12" size="1.27" layer="25">&gt;NAME</text>
-<text x="12" y="10" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="PFC-02301-00">
-<pad name="1" x="-15.25" y="-8.9" drill="1.5" diameter="3.2"/>
-<pad name="2" x="15.25" y="-8.9" drill="1.5" diameter="3.2"/>
-<pad name="3" x="15.25" y="8.9" drill="1.5" diameter="3.2"/>
-<pad name="4" x="-15.25" y="8.9" drill="1.5" diameter="3.2"/>
-<wire x1="-25.4" y1="-11.45" x2="25.4" y2="-11.45" width="0.127" layer="21"/>
-<wire x1="25.4" y1="-11.45" x2="25.4" y2="11.45" width="0.127" layer="21"/>
-<wire x1="25.4" y1="11.45" x2="-25.4" y2="11.45" width="0.127" layer="21"/>
-<wire x1="-25.4" y1="11.45" x2="-25.4" y2="-11.45" width="0.127" layer="21"/>
-<text x="-6.6675" y="12.065" size="1.27" layer="25">&gt;NAME</text>
-<text x="7.3025" y="12.065" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="L-WURTH7443630420">
-<smd name="1" x="-4.5" y="-8.5" dx="5" dy="5" layer="1"/>
-<smd name="2" x="4.5" y="-8.5" dx="5" dy="5" layer="1"/>
-<smd name="3" x="0" y="8.5" dx="5" dy="5" layer="1"/>
-<wire x1="-11" y1="-9" x2="11" y2="-9" width="0.127" layer="21"/>
-<wire x1="11" y1="-9" x2="11" y2="9" width="0.127" layer="21"/>
-<wire x1="11" y1="9" x2="-11" y2="9" width="0.127" layer="21"/>
-<wire x1="-11" y1="9" x2="-11" y2="-9" width="0.127" layer="21"/>
-<text x="-9.8425" y="9.2075" size="1.27" layer="25">&gt;NAME</text>
-<text x="4.445" y="9.2075" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="L-COILTRONICS-DR74">
-<smd name="1" x="-3" y="0" dx="2.5" dy="3.25" layer="1"/>
-<smd name="2" x="3" y="0" dx="2.5" dy="3.25" layer="1"/>
-<wire x1="-4" y1="4" x2="-4" y2="-4" width="0.127" layer="21"/>
-<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.127" layer="21"/>
-<wire x1="4" y1="-4" x2="4" y2="4" width="0.127" layer="21"/>
-<wire x1="4" y1="4" x2="-4" y2="4" width="0.127" layer="21"/>
-<text x="-2.5" y="4" size="1" layer="25">&gt;NAME</text>
-<text x="-2.5" y="-5" size="1" layer="27">&gt;VALUE</text>
-</package>
-<package name="SRN8040-680M">
-<smd name="1" x="-2.85" y="0" dx="2.2" dy="8" layer="1"/>
-<smd name="2" x="2.85" y="0" dx="2.2" dy="8" layer="1"/>
-<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
-<text x="-1.9" y="4.7" size="1" layer="25">&gt;NAME</text>
-</package>
-<package name="L-CLF6045">
-<smd name="1" x="-2.65" y="0" dx="1.7" dy="2.2" layer="1"/>
-<smd name="2" x="2.65" y="0" dx="1.7" dy="2.2" layer="1"/>
-<wire x1="-3.1" y1="-2.95" x2="3.1" y2="-2.95" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-2.95" x2="3.1" y2="2.95" width="0.127" layer="21"/>
-<wire x1="3.1" y1="2.95" x2="-3.1" y2="2.95" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="2.95" x2="-3.1" y2="-2.95" width="0.127" layer="21"/>
-<text x="-2.19" y="3.49" size="1" layer="25">&gt;NAME</text>
-</package>
-<package name="L-SRR1210">
-<smd name="1" x="-5.05" y="0" dx="2.8" dy="5.3" layer="1"/>
-<smd name="2" x="5.05" y="0" dx="2.8" dy="5.3" layer="1"/>
-<wire x1="-6" y1="6" x2="-6" y2="-6" width="0.127" layer="21"/>
-<wire x1="-6" y1="-6" x2="6" y2="-6" width="0.127" layer="21"/>
-<wire x1="6" y1="-6" x2="6" y2="6" width="0.127" layer="21"/>
-<wire x1="6" y1="6" x2="-6" y2="6" width="0.127" layer="21"/>
-<text x="-3.3" y="6.4" size="1.27" layer="25">&gt;NAME</text>
-</package>
-<package name="COILCRAFT-EPL2014">
-<smd name="1" x="-0.725" y="0" dx="1.04" dy="2.2" layer="1"/>
-<smd name="2" x="0.725" y="0" dx="1.04" dy="2.2" layer="1"/>
-<wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="21"/>
-<wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="21"/>
-<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="21"/>
-<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="21"/>
-<text x="-1.5" y="1.5" size="0.8" layer="25">&gt;NAME</text>
-</package>
-<package name="WE-74404042220">
-<smd name="1" x="-1.55" y="0" dx="1.2" dy="3.7" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="1.2" dy="3.7" layer="1"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="21"/>
-<text x="-1.5" y="2.4" size="0.8" layer="25">&gt;NAME</text>
-</package>
-<package name="L-WURTH744031220">
-<smd name="1" x="0" y="1.65" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="0" y="-1.65" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0" layer="1">
-<vertex x="-2.15" y="2.15"/>
-<vertex x="2.15" y="2.15"/>
-<vertex x="2.15" y="0.55"/>
-<vertex x="1.18" y="0.55" curve="66"/>
-<vertex x="0" y="1.3" curve="66"/>
-<vertex x="-1.18" y="0.55"/>
-<vertex x="-2.15" y="0.55"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.15" y="-2.15"/>
-<vertex x="-2.15" y="-2.15"/>
-<vertex x="-2.15" y="-0.55"/>
-<vertex x="-1.18" y="-0.55" curve="66"/>
-<vertex x="0" y="-1.3" curve="66"/>
-<vertex x="1.18" y="-0.55"/>
-<vertex x="2.15" y="-0.55"/>
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-2.15" y="2.15"/>
-<vertex x="2.15" y="2.15"/>
-<vertex x="2.15" y="0.55"/>
-<vertex x="1.18" y="0.55" curve="66"/>
-<vertex x="0" y="1.3" curve="66"/>
-<vertex x="-1.18" y="0.55"/>
-<vertex x="-2.15" y="0.55"/>
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="2.15" y="-2.15"/>
-<vertex x="-2.15" y="-2.15"/>
-<vertex x="-2.15" y="-0.55"/>
-<vertex x="-1.18" y="-0.55" curve="66"/>
-<vertex x="0" y="-1.3" curve="66"/>
-<vertex x="1.18" y="-0.55"/>
-<vertex x="2.15" y="-0.55"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-2.15" y="2.15"/>
-<vertex x="2.15" y="2.15"/>
-<vertex x="2.15" y="0.55"/>
-<vertex x="1.18" y="0.55" curve="66"/>
-<vertex x="0" y="1.3" curve="66"/>
-<vertex x="-1.18" y="0.55"/>
-<vertex x="-2.15" y="0.55"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="2.15" y="-2.15"/>
-<vertex x="-2.15" y="-2.15"/>
-<vertex x="-2.15" y="-0.55"/>
-<vertex x="-1.18" y="-0.55" curve="66"/>
-<vertex x="0" y="-1.3" curve="66"/>
-<vertex x="1.18" y="-0.55"/>
-<vertex x="2.15" y="-0.55"/>
-</polygon>
-<wire x1="-2.15" y1="2.15" x2="2.15" y2="2.15" width="0.1" layer="21"/>
-<wire x1="2.15" y1="2.15" x2="2.15" y2="-2.15" width="0.1" layer="21"/>
-<wire x1="2.15" y1="-2.15" x2="-2.15" y2="-2.15" width="0.1" layer="21"/>
-<wire x1="-2.15" y1="-2.15" x2="-2.15" y2="2.15" width="0.1" layer="21"/>
-<text x="-2.3" y="-1.7" size="0.8" layer="25" rot="R90">&gt;NAME</text>
-</package>
-<package name="L-WURTH744029100">
-<smd name="1" x="0" y="1.1" dx="3.2" dy="1" layer="1"/>
-<smd name="2" x="0" y="-1.1" dx="3.2" dy="1" layer="1"/>
-<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.5" width="0.1" layer="21"/>
-<wire x1="1.4" y1="-0.5" x2="0.5" y2="-1.4" width="0.1" layer="21"/>
-<wire x1="0.5" y1="-1.4" x2="-0.5" y2="-1.4" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="-1.4" x2="-1.4" y2="-0.5" width="0.1" layer="21"/>
-<wire x1="-1.4" y1="-0.5" x2="-1.4" y2="0.5" width="0.1" layer="21"/>
-<wire x1="-1.4" y1="0.5" x2="-0.5" y2="1.4" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="1.4" x2="0.5" y2="1.4" width="0.1" layer="21"/>
-<wire x1="0.5" y1="1.4" x2="1.4" y2="0.5" width="0.1" layer="21"/>
-<text x="-2" y="-1.7" size="0.8" layer="21" rot="R90">&gt;NAME</text>
-</package>
-<package name="L-SLF6028">
-<smd name="1" x="-2.75" y="0" dx="1.5" dy="2.2" layer="1"/>
-<smd name="2" x="2.75" y="0" dx="1.5" dy="2.2" layer="1"/>
-<wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="21"/>
-<wire x1="3" y1="3" x2="3" y2="-3" width="0.1" layer="21"/>
-<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="21"/>
-<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="21"/>
-<text x="-2.5" y="3.4" size="1" layer="25" font="vector" ratio="13">&gt;NAME</text>
-</package>
-<package name="L-XFL4020">
-<smd name="1" x="-1.185" y="0" dx="0.98" dy="3.4" layer="1"/>
-<smd name="2" x="1.185" y="0" dx="0.98" dy="3.4" layer="1"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
-<text x="-1.6" y="2.2" size="0.8" layer="25" ratio="13">&gt;NAME</text>
-</package>
-<package name="L-COILCRAFT-MSS1038">
-<smd name="1" x="0" y="4.7" dx="3.56" dy="1.78" layer="1"/>
-<smd name="2" x="0" y="-4.7" dx="3.56" dy="1.78" layer="1"/>
-<wire x1="-5" y1="5" x2="5" y2="5" width="0.1" layer="21"/>
-<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="21"/>
-<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="21"/>
-<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.1" layer="21"/>
-<text x="-5.6" y="-2" size="1" layer="21" font="vector" ratio="10" rot="R90">&gt;NAME</text>
-</package>
 <package name="MICROFIT-1X2">
 <pad name="1" x="1.5" y="0" drill="1.1" diameter="2"/>
 <pad name="2" x="-1.5" y="0" drill="1.1" diameter="2"/>
@@ -788,18 +401,6 @@
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="1.778" y="-0.254" size="1.27" layer="94" rot="R180">GND</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-<symbol name="L">
-<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
-<text x="2.54" y="-1.27" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="2.54" y="3.81" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="CON-2">
 <pin name="1" x="2.54" y="0" length="short" rot="R180"/>
@@ -918,328 +519,6 @@
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="L" prefix="L" uservalue="yes">
-<gates>
-<gate name="L" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603" package="0603">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0805" package="0805">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-BOURNS-SRR1240" package="L-BOURNS-SRR1240">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-1206" package="1206">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="SMD0402_FR4_0.5MM">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="L0402" package="L0402">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="L0603" package="L0603">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="F1644588" package="L-F1644588">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-F1636090" package="L-F1636090">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LQW15" package="RT-LQW15">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LQW18" package="RT-LQW18">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="BLM15" package="RT-BLM15">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="BLM18" package="RT-BLM18">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="BLM21" package="RT-BLM21">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO5040H-334KL" package="L-COILCRAFT-DO5040H">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="L1206-COILCRAFT" package="L1206">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="F-REF" value="2288767" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="BLM41P" package="BLM41P-1806">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="-BLM41PG600SN1">
-<attribute name="F-MIN" value="10" constant="no"/>
-<attribute name="F-PRICE" value="0.37" constant="no"/>
-<attribute name="F-REF" value="9526900" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SLF7045T-220MR90-PF" package="L-SLF7045T-220MR90-PF">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="F-PRICE" value="0.752" constant="no"/>
-<attribute name="F-REF" value="2215714" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-100µH/7.4A" package="L-100µH-7.4A">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-PFC-02301-00" package="PFC-02301-00">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WURTH7443630420" package="L-WURTH7443630420">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="F-REF" value="1869758" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="COILTRONICS-DR74" package="L-COILTRONICS-DR74">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="-33UH">
-<attribute name="F-REF" value="1463518" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SRN8040" package="SRN8040-680M">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-CLF6045" package="L-CLF6045">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SRR1210" package="L-SRR1210">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="COILCRAFT-EPL2014" package="COILCRAFT-EPL2014">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="F-PRICE" value="0.571" constant="no"/>
-<attribute name="F-REF" value="2287388" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="WE-74404042220" package="WE-74404042220">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="F-PRICE" value="0.99" constant="no"/>
-<attribute name="F-REF" value="2431498" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-WE744031220" package="L-WURTH744031220">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="F-REF" value="890602" constant="no"/>
-<attribute name="M-REF" value="710-744031220" constant="no"/>
-<attribute name="RS-REF" value="617-0903" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="WE-744029100" package="L-WURTH744029100">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="F-REF" value="1635828" constant="no"/>
-<attribute name="M-REF" value="710-744029100" constant="no"/>
-<attribute name="RS-REF" value="669-0179" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SLF6028" package="L-SLF6028">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-XFL4020" package="L-XFL4020">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MSS1038" package="L-COILCRAFT-MSS1038">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9555,7 +8834,7 @@ DIN A3, landscape with location and doc. field</description>
 </spice>
 <attribute name="FARNELL" value="1099913"/>
 </part>
-<part name="L1" library="Bonelli" deviceset="L" device="-MSS1038" value="10µ">
+<part name="L1" library="0SBLib" deviceset="L" device="SRN5040TA" value="10µ">
 <attribute name="FARNELL" value="2288225"/>
 </part>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="4.7µ"/>
@@ -9576,7 +8855,7 @@ DIN A3, landscape with location and doc. field</description>
 </spice>
 <attribute name="FARNELL" value="1099913"/>
 </part>
-<part name="L2" library="Bonelli" deviceset="L" device="-MSS1038" value="10µ">
+<part name="L2" library="0SBLib" deviceset="L" device="SRN5040TA" value="10µ">
 <attribute name="FARNELL" value="2288225"/>
 </part>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="4.7µ"/>
@@ -9597,7 +8876,7 @@ DIN A3, landscape with location and doc. field</description>
 </spice>
 <attribute name="FARNELL" value="1099913"/>
 </part>
-<part name="L3" library="Bonelli" deviceset="L" device="-MSS1038" value="10µ">
+<part name="L3" library="0SBLib" deviceset="L" device="SRN5040TA" value="10µ">
 <attribute name="FARNELL" value="2288225"/>
 </part>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="4.7µ"/>
@@ -9656,8 +8935,8 @@ DIN A3, landscape with location and doc. field</description>
 </instance>
 <instance part="L5" gate="G$1" x="81.28" y="172.72" smashed="yes" rot="R90">
 <attribute name="FARNELL" x="81.28" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="78.74" y="168.91" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="76.2" y="176.53" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="76.2" y="168.91" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="81.28" y="168.91" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C39" gate="G$1" x="38.1" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.576" y="162.179" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -9725,10 +9004,10 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="217.3986" y="168.91" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="212.598" y="168.91" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="L1" gate="L" x="264.16" y="172.72" smashed="yes">
-<attribute name="FARNELL" x="264.16" y="172.72" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="266.7" y="171.45" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="266.7" y="176.53" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="L1" gate="G$1" x="256.54" y="172.72" smashed="yes" rot="R90">
+<attribute name="FARNELL" x="256.54" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="251.46" y="168.91" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="256.54" y="168.91" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="195.58" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.056" y="162.179" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -9761,10 +9040,10 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="318.9986" y="168.91" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="314.198" y="168.91" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="L2" gate="L" x="360.68" y="172.72" smashed="yes">
-<attribute name="FARNELL" x="360.68" y="172.72" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="363.22" y="171.45" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="363.22" y="176.53" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="L2" gate="G$1" x="355.6" y="172.72" smashed="yes" rot="R90">
+<attribute name="FARNELL" x="355.6" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="350.52" y="168.91" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="355.6" y="168.91" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C2" gate="G$1" x="297.18" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="295.656" y="162.179" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -9797,10 +9076,10 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="133.5786" y="168.91" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="128.778" y="168.91" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="L3" gate="L" x="157.48" y="172.72" smashed="yes">
-<attribute name="FARNELL" x="157.48" y="172.72" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="160.02" y="171.45" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="160.02" y="176.53" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="L3" gate="G$1" x="154.94" y="172.72" smashed="yes" rot="R90">
+<attribute name="FARNELL" x="154.94" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="149.86" y="168.91" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="154.94" y="168.91" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C3" gate="G$1" x="111.76" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.236" y="162.179" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -10106,15 +9385,15 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="L1" gate="L" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="BL2" gate="L" pin="C"/>
-<wire x1="243.84" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="172.72" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="L1" gate="L" pin="2"/>
-<wire x1="269.24" y1="172.72" x2="271.78" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="172.72" x2="271.78" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="172.72" x2="271.78" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="160.02" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="LX"/>
@@ -10150,15 +9429,15 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="L2" gate="L" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 <pinref part="RD2" gate="L" pin="C"/>
-<wire x1="342.9" y1="172.72" x2="353.06" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="172.72" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="L2" gate="L" pin="2"/>
-<wire x1="365.76" y1="172.72" x2="368.3" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="L2" gate="G$1" pin="2"/>
+<wire x1="363.22" y1="172.72" x2="368.3" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="172.72" x2="368.3" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="160.02" x2="327.66" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="LX"/>
@@ -10194,14 +9473,13 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="L3" gate="L" pin="1"/>
-<wire x1="147.32" y1="172.72" x2="149.86" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="1"/>
 <pinref part="WH" gate="L" pin="C"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="L3" gate="L" pin="2"/>
+<pinref part="L3" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="172.72" x2="165.1" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="172.72" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91"/>

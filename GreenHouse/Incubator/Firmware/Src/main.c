@@ -123,8 +123,8 @@ int main(void)
 
 	  // Set clock here !
 	  sec = 55;
-	  min = 33;
-	  hour = 10;
+	  min = 59;
+	  hour = 6;
 
 	  pwrV = 0;
 	  pwrB = 0;
